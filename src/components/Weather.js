@@ -20,7 +20,7 @@ class Weather extends React.Component {
     you would definitely save your key in an environment variable.
     To keep API keys simple during the development of your project,
     you can set an `apiKey` variable in this file for now. */
-    const apiKey = `e24f562931218255e692bf467aaf8bbf`
+    const apiKey = `???`
 
     const params = {
       lat: location.coords.latitude,
