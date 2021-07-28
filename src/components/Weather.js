@@ -39,7 +39,7 @@ class Weather extends React.Component {
     const weather = this.state.weather;
     let content = <div className='loading'>loading weather...</div>;
     
-    if (weather) {
+    if (weather && weather.main) {
       const temp = (weather.main.temp - 273.15) * 1.8 + 32;
       content = <div>
         <p>{weather.name}</p>
