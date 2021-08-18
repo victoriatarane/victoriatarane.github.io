@@ -42,7 +42,29 @@ footer, header, hgroup, menu, nav, section {
 .profile-pic {
 	max-height: 180px;
 	max-width: 100px;
-
+}
+.language-skills {
+	box-sizing: border-box;
+	display: flex; 
+	flex-direction: row;
+	justify-content: center;
+}
+.footerDiv {
+	padding-top: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.call-to-action {
+	font-size: 15px;
+	border-radius: 20px;
+	border-style: solid;
+	white-space: nowrap;
+}
+.aboutMe {
+	text-align: right;
+	display: inline;
+	float: left;
 }
 .images {
 	display: flex;
