@@ -38,7 +38,16 @@ footer, header, hgroup, menu, nav, section {
     display: flex;
     align-content: center;
 }
-
+.custom-button {
+	text-align: center;
+	border: solid white ;
+	border-radius: 20px;
+	white-space:nowrap;
+}
+.logos {
+	display: flex;
+	justify-content: center;
+}
 .profile-pic {
 	max-height: 180px;
 	max-width: 100px;
