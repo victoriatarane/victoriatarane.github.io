@@ -45,8 +45,9 @@ footer, header, hgroup, menu, nav, section {
 	white-space:nowrap;
 }
 .logos {
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
+	text-align: center;
 }
 .profile-pic {
 	max-height: 180px;
